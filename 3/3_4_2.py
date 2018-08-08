@@ -53,7 +53,7 @@ plt.legend()
 plt.show()
 
 results = model.evaluate(x_test, y_test)
-results_detail = model.predict(x_test)
+predictions = model.predict(x_test)
 
 print(results)
-print(results_detail)
+print(predictions)
