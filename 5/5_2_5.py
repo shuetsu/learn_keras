@@ -9,8 +9,7 @@ validation_dir = os.path.join(base_dir, 'validation')
 test_dir = os.path.join(base_dir, 'test')
 train_cats_dir = os.path.join(train_dir, 'cats')
 
-datagen = ImageDataGenerator(rescale=0,
-                             rotation_range=40,
+datagen = ImageDataGenerator(rotation_range=40,
                              width_shift_range=0.2,
                              height_shift_range=0.2,
                              shear_range=0.2,
